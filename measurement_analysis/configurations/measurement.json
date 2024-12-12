@@ -1,0 +1,69 @@
+{
+    "object_detection":
+    [
+        {
+            "name":"circle_0",
+            "template_matching":{
+                "path_template":"./measurement_analysis/templates/template.npy",
+                "path_weights":null,
+                "rel_x_0":0.04,
+                "rel_x_1":0.96,
+                "rel_y_0":0.04,
+                "rel_y_1":0.5
+            },
+            "measure_variance": [4.0,5.8],
+            "boundary_variance": [50,50],
+            "trust_variance": [0.5,1.2]
+
+        },
+        {
+            "name":"circle_1",
+            "template_matching":{
+                "path_template":"./measurement_analysis/templates/template.npy",
+                "path_weights":null,
+                "rel_x_0":0.04,
+                "rel_x_1":0.96,
+                "rel_y_0":0.5,
+                "rel_y_1":0.96
+            },
+            "measure_variance": [4.0,5.8],
+            "boundary_variance": [50,50],
+            "trust_variance": [0.5,1.2]
+        }
+    ],
+    "square":
+    {
+        "warp_edge": 
+        {
+            "measure_variance": [230.0,250.0]
+        },
+        "weft_edge":
+        {
+            "measure_variance": [154.0,184.0]
+        }
+    },
+    "front_weft_circle":
+    {
+       
+        "warp_edge":
+        {
+            "measure_variance":[15.0,35.0] 
+        }
+    },
+    "back_weft_circle":
+    {
+
+        "weft_edge":
+        {
+            "measure_variance":[40.0,55.0]
+        },
+        "warp_edge":
+        {
+            "measure_variance":[5.0,25.0] 
+        }
+    },
+    "circle_to_circle":
+    {
+         "measure_variance":[150.0,170.0]
+    }
+}
