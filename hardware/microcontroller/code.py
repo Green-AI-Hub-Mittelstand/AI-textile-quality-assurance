@@ -24,8 +24,8 @@ button1 = digitalio.DigitalInOut(board.D8)
 button1.direction = digitalio.Direction.INPUT
 button1.pull = digitalio.Pull.UP  # Internal pull-up resistor
 
-# Output pin setup on A0
-output_pin = digitalio.DigitalInOut(board.A0)
+# Output pin setup on D9
+output_pin = digitalio.DigitalInOut(board.D9)
 output_pin.direction = digitalio.Direction.OUTPUT
 
 # Initial servo position
