@@ -182,7 +182,7 @@ The used network architecture is:
 
 ## License
 
-Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information. </br>
+Distributed under the MIT license. See `LICENSE.txt` for more information. </br>
 Check the external libraries used in the application:
 
 | Libary        | License          |
